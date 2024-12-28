@@ -2,9 +2,9 @@
 // Use the concat method to combine the two arrays into a new array.
 // Print both the original arrays and the combined array using console.log().
 
-// let a=[10,20,5]
-// let b=[100,50,500]
-// let c=a.concat(b);
+ let a=[10,20,5]
+ let b=[100,50,500]
+ let c=a.concat(b);
 
 // console.log(a)
 // console.log(b)
@@ -16,15 +16,15 @@
 // Now use isArray to check if each variable is an array.
 // Print a message to the console indicating whether each variable is an array or not.
 
-// let a=[10,50,"shadaf",false]
-// let b=false
+ let a2=[10,50,"shadaf",false]
+ let b2=false
 
-// if(Array.isArray(b)==true){
+ if(Array.isArray(b2)==true){
 //     console.log("It's an Array")
-// }
-// else{
+ }
+ else{
 //     console.log("It's not Array")
-// }
+ }
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -34,9 +34,9 @@
 // Remove the last tourist destination you have added
 // display the final array as output
 
-// let destination=["dhaka","shylet","Cox's"]
-// destination.push("Bhola","india")
-// destination.pop()
+ let destination=["dhaka","shylet","Cox's"]
+ destination.push("Bhola","india")
+ destination.pop()
 
 // console.log(destination)
 
@@ -48,11 +48,11 @@
 // Output:
 // ['orange', 'yellow', 'green', 'blue', 'red']
 
-// const colors=['red', 'blue', 'green', 'yellow', 'orange'];
-// let output=[];
-// for(let color of colors){
-// output.unshift(color);
-// }
+ const colors=['red', 'blue', 'green', 'yellow', 'orange'];
+ let output3=[];
+ for(let color of colors){
+ output3.unshift(color);
+ }
 // console.log(output);
 
 ///////////////////////////////////////////////////////////////////////
@@ -64,13 +64,13 @@
 // Output:
 // [12, 98, 76, 46]
 
-// const numbers = [12, 98, 5, 41, 23, 78, 46];
-// let output=[];
-// for(let number of numbers){
-//     if(number%2==0){
-//         output.push(number);
-//         }
-// }
+ const numbers2 = [12, 98, 5, 41, 23, 78, 46];
+ let output2=[];
+ for(let number of numbers2){
+     if(number%2==0){
+         output2.push(number);
+         }
+ }
 // console.log(output)
 
 ///////////////////////////////////////////////////////////////////////
@@ -81,7 +81,7 @@
 // Output:
 // 'TomTimTinTik'
 
-// var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+ var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
 // console.log(numbers.join(""))
 
 ///////////////////////////////////////////////////////////////////////
@@ -93,6 +93,6 @@
 // Output:
 // 'person working hard a am I'
 
-// const statement = 'I am a hard working person';
-// let output=statement.split(" ").reverse().join(" ");;
+ const statement = 'I am a hard working person';
+ let output=statement.split(" ").reverse().join(" ");;
 // console.log(output);
