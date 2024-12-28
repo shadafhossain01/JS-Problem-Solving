@@ -32,4 +32,48 @@ let sum=0;
 
 // Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
 
+let arr5=[10,50,85,70,90]
+function make_avg(arr){
+let total=arr.reduce((a,b)=>a+b);
+let avg=total/arr5.length;
 
+return avg
+}
+
+// console.log(make_avg(arr5))
+
+//////////////////////////////////////////////////////////////////////////////
+
+// Write a function to convert temperature from Celsius to Fahrenheit.
+
+function tempConvert(celsius){
+let fahrenheit=((celsius/5)*9)+32;
+
+return fahrenheit
+}
+
+// console.log(tempConvert(40))
+
+//////////////////////////////////////////////////////////////////////////////
+
+// Write a function to find the longest word in a given string.
+
+// sample-input: I am learning Programming to become a programmer
+// sample-output: Programming
+
+function longWord(){
+let sentence="I am learning asbnghewrty Programming to become a programmer";
+let words=sentence.split(" ")
+let long=sentence[0];
+
+for (let word of words){
+    if(word.length>long.length){
+        long=word
+    }
+}
+// console.log(long)
+}
+
+longWord()
+
+//////////////////////////////////////////////////////////////////////////////
