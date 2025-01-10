@@ -96,3 +96,44 @@
  const statement = 'I am a hard working person';
  let output=statement.split(" ").reverse().join(" ");;
 // console.log(output);
+
+///////////////////////////////////////////////////////////////////////
+
+// Create an array of 5 elements using the Array Constructor.
+
+let arr=new Array(5,4,"sb",true,100);
+// console.log(arr)
+
+///////////////////////////////////////////////////////////////////////
+
+// Given the array-like object below, access the second element and log it:
+
+const arrayLike = { 0: "First", 1: "Second", length: 2 };
+// console.log(arrayLike[1])
+
+///////////////////////////////////////////////////////////////////////
+
+// Write a function that takes a variable number of arguments and converts the arguments object into a real array using Array.from.
+
+function convertArr(...c){
+console.log(c)
+}
+
+// convertArr(5,"sb",true,"rahim")
+
+///////////////////////////////////////////////////////////////////////
+
+// Merge these two arrays into a single array:
+
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+
+const merge=arr1.concat(arr2);
+// console.log(merge);
+
+///////////////////////////////////////////////////////////////////////
+
+// Use Array.from to convert a string like "Hello" into an array of characters.
+// console.log(Array.from("Hello"))
+
+///////////////////////////////////////////////////////////////////////
